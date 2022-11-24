@@ -1,0 +1,15 @@
+################ INSTALL & CONFIGURE WEB SERVICE ########################
+
+# apt install apache2 -y
+# systemctl start apache2
+# systemctl enable apache2
+# cd /etc/apache2/sites-available
+# vim 000-default.conf
+
+ServerName www.idn.loud
+ServerAdmin admin@idn.cloud
+DocumentRoot /var/www/html
+
+# systemctl restart apache2
+# curl www.idn.cloud
+
