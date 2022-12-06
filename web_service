@@ -13,3 +13,16 @@ DocumentRoot /var/www/html
 # systemctl restart apache2
 # curl www.idn.cloud
 
+
+############### UBAH DEFAULT PAGE APACHE ##############################
+
+# cd /var/www/html
+# echo "HELLO WORLD" > index.html
+# systemctl restart apache2
+# curl www.idn.cloud
+
+pastikan konten yang muncull HELLO WORLD
+
+############# WEB BASIC AUTHENTICATION ################
+
+# 
